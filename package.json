@@ -1,0 +1,29 @@
+{
+  "name": "vanilla-boiler",
+  "version": "1.0.0",
+  "description": "template for html,css,js and firebase",
+  "main": "src/index.js",
+  "repository": "https://github.com/VigneshHariharan/vanilla-boiler.git",
+  "author": "VigneshHariharan <phvigneshariharan@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start":"webpack serve"
+  },
+  "dependencies": {
+    "dayjs": "^1.10.7",
+    "firebase": "^9.5.0"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.5.1",
+    "file-loader": "^6.2.0",
+    "html-loader": "^3.0.1",
+    "html-webpack-plugin": "^5.3.2",
+    "mini-css-extract-plugin": "^2.4.5",
+    "optimize-css-assets-webpack-plugin": "^6.0.1",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.54.0",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.2.1"
+  }
+}

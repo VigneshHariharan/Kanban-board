@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap');
+
+html:root {
+    --color-1: #191A19;
+    --color-2: #1E5128;
+    --color-3: #4E9F3D;
+    --color-4: #D8E9A8;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+
+table {
+    font-family: 'DM Sans', sans-serif;
+}
+
+input {
+    font-family: 'DM Sans', sans-serif;
+}
+
+h1,h2,h3, h4,h5, h6, p, label {
+   color: var(--color-1);
+   margin: 0;
+}
+
+.container {
+    width: 60%; 
+    margin: 0 auto; 
+}
+
+.navbar {
+    display: flex;
+    flex: 1;
+    height: 60px;
+    border-bottom: 1px solid var(--color-4);
+    padding-left: 16px;
+    align-items: center;
+}
+
