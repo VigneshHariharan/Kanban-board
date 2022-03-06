@@ -1,0 +1,1 @@
+{"data":{"tasks":[{"id":2,"title":"Kanban task 2","status":"todo","order":2},{"id":1,"title":"Kanban task 1","status":"todo","order":1},{"id":3,"title":"Kanban task 3","status":"inprogress","order":1,"priority":"p0"}]}}

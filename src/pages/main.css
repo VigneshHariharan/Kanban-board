@@ -13,30 +13,29 @@ body {
     min-height: 100vh;
 }
 
-table {
+table,input {
     font-family: 'DM Sans', sans-serif;
 }
 
-input {
-    font-family: 'DM Sans', sans-serif;
-}
 
 h1,h2,h3, h4,h5, h6, p, label {
    color: var(--color-1);
    margin: 0;
 }
 
-.container {
-    width: 60%; 
-    margin: 0 auto; 
+h5 {
+    font-size: 22px;
+}
+p {
+    font-size: 18px;
 }
 
-.navbar {
+.board {
     display: flex;
-    flex: 1;
-    height: 60px;
-    border-bottom: 1px solid var(--color-4);
-    padding-left: 16px;
-    align-items: center;
-}
+    column-gap: 20px;
+    background-color: aquamarine;
+};
 
+.statusWrapper {
+    background-color: red;
+}

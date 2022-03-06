@@ -9,3 +9,5 @@ create a new object in the pages array,add the path, filename of the image in th
 - It should look like a kanban board with drag and drop
 
 Time started 11:18 AM Sun 6 March 2022
+Time interrupted 12:30 PM Sun 6 March 2022
+- only made read, got stuck in cors, styling, element appending
